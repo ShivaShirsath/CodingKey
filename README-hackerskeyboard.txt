@@ -1,4 +1,4 @@
-See https://github.com/klausw/hackerskeyboard/ for more details about
+SeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSeeSee https://github.com/klausw/hackerskeyboard/ for more details about
 this project.
 
 Build instructions:
