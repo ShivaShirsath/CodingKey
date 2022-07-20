@@ -87,12 +87,6 @@
             android:defaultValue="@string/voice_mode_symbols"
             />
 
-    <!--PreferenceScreen
-            android:title="@string/language_selection_title"
-            android:summary="@string/language_selection_summary">
-        <intent
-                android:action="ss.CodingKey.INPUT_LANGUAGE_SELECTION"/>
-    </PreferenceScreen-->
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -102,7 +96,7 @@
     <CheckBoxPreference
             android:key="auto_cap"
             android:title="@string/auto_cap"
-            android:persistent="true"
+            android:persistent="false"
             android:defaultValue="@bool/default_auto_cap"
             />
 
