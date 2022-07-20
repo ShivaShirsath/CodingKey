@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import org.pocketworkstation.pckeyboard.Keyboard.Key;
+import ss.CodingKey.Keyboard.Key;
 
 import android.os.Build;
 import android.os.Handler;

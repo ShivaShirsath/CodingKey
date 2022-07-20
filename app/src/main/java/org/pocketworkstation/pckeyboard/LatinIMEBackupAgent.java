@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.SharedPreferencesBackupHelper;

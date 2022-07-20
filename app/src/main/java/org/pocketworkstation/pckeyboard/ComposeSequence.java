@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import android.inputmethodservice.InputMethodService;
 import android.util.Log;

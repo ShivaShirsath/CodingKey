@@ -1,6 +1,6 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
-import org.pocketworkstation.pckeyboard.Keyboard.Key;
+import ss.CodingKey.Keyboard.Key;
 
 class MiniKeyboardKeyDetector extends KeyDetector {
     private static final int MAX_NEARBY_KEYS = 1;

@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import java.util.HashMap;
 import java.util.HashSet;

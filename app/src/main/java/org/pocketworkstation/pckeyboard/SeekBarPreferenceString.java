@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

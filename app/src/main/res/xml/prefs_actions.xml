@@ -7,7 +7,7 @@
         android:key="swipe_actions"
         android:title="@string/title_swipe_gestures" >
 
-        <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+        <ss.CodingKey.AutoSummaryListPreference
             android:defaultValue="@string/default_swipe_up"
             android:entries="@array/swipe_action_entries"
             android:entryValues="@array/swipe_action_values"
@@ -15,7 +15,7 @@
             android:persistent="true"
             android:title="@string/title_swipe_up" />
 
-        <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+        <ss.CodingKey.AutoSummaryListPreference
             android:defaultValue="@string/default_swipe_down"
             android:entries="@array/swipe_action_entries"
             android:entryValues="@array/swipe_action_values"
@@ -23,7 +23,7 @@
             android:persistent="true"
             android:title="@string/title_swipe_down" />
 
-        <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+        <ss.CodingKey.AutoSummaryListPreference
             android:defaultValue="@string/default_swipe_left"
             android:entries="@array/swipe_action_entries"
             android:entryValues="@array/swipe_action_values"
@@ -31,7 +31,7 @@
             android:persistent="true"
             android:title="@string/title_swipe_left" />
 
-        <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+        <ss.CodingKey.AutoSummaryListPreference
             android:defaultValue="@string/default_swipe_right"
             android:entries="@array/swipe_action_entries"
             android:entryValues="@array/swipe_action_values"
@@ -44,7 +44,7 @@
         android:key="key_actions"
         android:title="@string/title_hardware_key_actions" >
 
-        <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+        <ss.CodingKey.AutoSummaryListPreference
             android:defaultValue="@string/default_vol_up"
             android:entries="@array/swipe_action_entries"
             android:entryValues="@array/swipe_action_values"
@@ -52,7 +52,7 @@
             android:persistent="true"
             android:title="@string/title_vol_up" />
 
-        <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+        <ss.CodingKey.AutoSummaryListPreference
             android:defaultValue="@string/default_vol_down"
             android:entries="@array/swipe_action_entries"
             android:entryValues="@array/swipe_action_values"

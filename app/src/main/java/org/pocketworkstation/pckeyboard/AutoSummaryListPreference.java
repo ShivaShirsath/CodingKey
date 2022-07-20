@@ -1,7 +1,7 @@
 /**
  *
  */
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import android.content.Context;
 import android.preference.ListPreference;

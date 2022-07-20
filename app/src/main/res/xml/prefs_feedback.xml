@@ -10,7 +10,7 @@
             android:persistent="true"
             />
 
-    <org.pocketworkstation.pckeyboard.VibratePreference		
+    <ss.CodingKey.VibratePreference		
             android:defaultValue="40"
             hk:minValue="5"
             hk:maxValue="200"
@@ -27,7 +27,7 @@
             android:persistent="true" 
             />
 
-    <org.pocketworkstation.pckeyboard.AutoSummaryListPreference
+    <ss.CodingKey.AutoSummaryListPreference
             android:key="pref_click_method"
             android:title="@string/title_click_method"
             android:entryValues="@array/click_method_values"
@@ -36,7 +36,7 @@
             android:persistent="true"
             />
     
-    <org.pocketworkstation.pckeyboard.SeekBarPreferenceString
+    <ss.CodingKey.SeekBarPreferenceString
             android:defaultValue="@string/default_click_volume"
             hk:minValue="0"
             hk:maxValue="1"

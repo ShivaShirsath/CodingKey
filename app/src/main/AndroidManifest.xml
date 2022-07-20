@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="org.pocketworkstation.pckeyboard">
+        package="ss.CodingKey">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
@@ -35,7 +35,7 @@
         <activity android:name="LatinIMESettings" android:label="@string/english_ime_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="org.pocketworkstation.pckeyboard.SETTINGS"/>
+                <action android:name="ss.CodingKey.SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -44,7 +44,7 @@
                 android:label="@string/language_selection_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="org.pocketworkstation.pckeyboard.INPUT_LANGUAGE_SELECTION"/>
+                <action android:name="ss.CodingKey.INPUT_LANGUAGE_SELECTION"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -53,7 +53,7 @@
                 android:label="@string/pref_screen_actions_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="org.pocketworkstation.pckeyboard.PREFS_ACTIONS"/>
+                <action android:name="ss.CodingKey.PREFS_ACTIONS"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -62,7 +62,7 @@
                 android:label="@string/pref_screen_actions_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="org.pocketworkstation.pckeyboard.PREFS_VIEW"/>
+                <action android:name="ss.CodingKey.PREFS_VIEW"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -71,7 +71,7 @@
                 android:label="@string/pref_screen_feedback_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="org.pocketworkstation.pckeyboard.PREFS_FEEDBACK"/>
+                <action android:name="ss.CodingKey.PREFS_FEEDBACK"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -1,13 +1,13 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.pocketworkstation.pckeyboard.LatinKeyboardBaseView.OnKeyboardActionListener;
-import org.pocketworkstation.pckeyboard.LatinKeyboardBaseView.UIHandler;
+import ss.CodingKey.LatinKeyboardBaseView.OnKeyboardActionListener;
+import ss.CodingKey.LatinKeyboardBaseView.UIHandler;
 
 import android.content.res.Resources;
-import org.pocketworkstation.pckeyboard.Keyboard.Key;
+import ss.CodingKey.Keyboard.Key;
 import android.util.Log;
 import android.view.MotionEvent;
 

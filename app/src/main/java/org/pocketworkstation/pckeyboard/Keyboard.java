@@ -1,5 +1,5 @@
 
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import org.xmlpull.v1.XmlPullParserException;
 

@@ -1,7 +1,7 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import android.content.Context;
-import org.pocketworkstation.pckeyboard.Keyboard.Key;
+import ss.CodingKey.Keyboard.Key;
 import android.text.format.DateFormat;
 import android.util.Log;
 

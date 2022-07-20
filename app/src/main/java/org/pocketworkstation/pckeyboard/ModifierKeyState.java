@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 class ModifierKeyState {
     private static final int RELEASING = 0;

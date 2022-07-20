@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

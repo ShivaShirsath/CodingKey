@@ -1,6 +1,6 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
-import org.pocketworkstation.pckeyboard.LatinIMEUtil.RingCharBuffer;
+import ss.CodingKey.LatinIMEUtil.RingCharBuffer;
 
 import com.google.android.voiceime.VoiceRecognitionTrigger;
 

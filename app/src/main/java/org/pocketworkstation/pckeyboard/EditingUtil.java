@@ -1,4 +1,4 @@
-package org.pocketworkstation.pckeyboard;
+package ss.CodingKey;
 
 import android.text.TextUtils;
 import android.view.inputmethod.ExtractedText;
