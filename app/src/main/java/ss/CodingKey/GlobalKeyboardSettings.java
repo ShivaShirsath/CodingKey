@@ -8,26 +8,6 @@ import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.util.Log;
 
-/**
- * Global current settings for the keyboard.
- * 
- * <p>
- * Yes, globals are evil. But the persisted shared preferences are global data
- * by definition, and trying to hide this by propagating the current manually
- * just adds a lot of complication. This is especially annoying due to Views
- * getting constructed in a way that doesn't support adding additional
- * constructor arguments, requiring post-construction method calls, which is
- * error-prone and fragile.
- * 
- * <p>
- * The comments below indicate which class is responsible for updating the
- * value, and for recreating keyboards or views as necessary. Other classes
- * MUST treat the fields as read-only values, and MUST NOT attempt to save
- * these values or results derived from them across re-initializations.
-
- * 
- * @author klaus.weidner@gmail.com
- */
 public final class GlobalKeyboardSettings {
     protected static final String TAG = "HK/Globals";
 
@@ -44,7 +24,7 @@ public final class GlobalKeyboardSettings {
     public String suggestedPunctuation = "!?,.";
     public int keyboardModePortrait = 0;
     public int keyboardModeLandscape = 2;
-    public boolean compactModeEnabled = true;  // always on
+    public boolean compactModeEnabled = false;  // always off
     public int ctrlAOverride = 0;
     public int chordingCtrlKey = 0;
     public int chordingAltKey = 0;

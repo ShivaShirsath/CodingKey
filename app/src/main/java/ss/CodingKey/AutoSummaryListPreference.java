@@ -1,6 +1,3 @@
-/**
- *
- */
 package ss.CodingKey;
 
 import android.content.Context;

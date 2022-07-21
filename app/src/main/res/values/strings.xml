@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for Latin keyboard  -->
-    <string name="english_ime_name">Hacker\'s Keyboard</string>
+    <string name="english_ime_name">Coding Key</string>
     <!-- Title for Latin keyboard settings activity / dialog -->
-    <string name="english_ime_settings">Settings for Hacker\'s Keyboard</string>
+    <string name="english_ime_settings">Settings for Coding Key</string>
     <!-- Title for Latin keyboard input options dialog -->
     <string name="english_ime_input_options">Input options</string>
 
@@ -561,7 +561,7 @@
         <item>Increase height</item>
         <item>Decrease height</item>
         <item>Previous language</item>
--       <item>Next language</item>
+        <item>Next language</item>
         </string-array>
     <string-array name="swipe_action_values">
         <item>none</item>
@@ -574,7 +574,7 @@
         <item>height_up</item>
         <item>height_down</item>
         <item>lang_prev</item>
--       <item>lang_next</item>
+        <item>lang_next</item>
     </string-array>    
     <string name="default_swipe_up">height_up</string>
     <string name="default_swipe_down">height_down</string>

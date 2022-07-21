@@ -64,8 +64,6 @@ public class KeyboardSwitcher implements
     private static final int KBD_QWERTY = R.xml.kbd_qwerty;
     private static final int KBD_FULL = R.xml.kbd_full;
     private static final int KBD_FULL_FN = R.xml.kbd_full_fn;
-    private static final int KBD_COMPACT = R.xml.kbd_compact;
-    private static final int KBD_COMPACT_FN = R.xml.kbd_compact_fn;
 
     private LatinKeyboardView mInputView;
     private static final int[] ALPHABET_MODES = { KEYBOARDMODE_NORMAL,
@@ -162,8 +160,6 @@ public class KeyboardSwitcher implements
 
     private KeyboardId makeSymbolsId(boolean hasVoice) {
         if (mFullMode == 1) {
-            return new KeyboardId(KBD_COMPACT_FN, KEYBOARDMODE_SYMBOLS, true, hasVoice);
-        } else if (mFullMode == 2) {
             return new KeyboardId(KBD_FULL_FN, KEYBOARDMODE_SYMBOLS, true, hasVoice);
         }
         return new KeyboardId(KBD_SYMBOLS,
@@ -350,8 +346,7 @@ public class KeyboardSwitcher implements
             case MODE_EMAIL:
             case MODE_IM:
             case MODE_WEB:
-                return new KeyboardId(mFullMode == 1 ? KBD_COMPACT : KBD_FULL,
-                        KEYBOARDMODE_NORMAL, true, hasVoice);
+                    return new KeyboardId(KBD_FULL, KEYBOARDMODE_NORMAL, true, hasVoice);
             }
         }
         // TODO: generalize for any KeyboardId
