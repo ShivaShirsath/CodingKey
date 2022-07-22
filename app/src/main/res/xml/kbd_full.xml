@@ -242,7 +242,7 @@
             android:keyEdgeFlags="left"
             android:isModifier="true" />
     </Row>
-    <Row android:keyWidth="9%p">
+    <Row android:keyWidth="9.2%p">
         <Key
             android:codes="@integer/key_shift"
             android:keyLabel="⇧"
@@ -316,8 +316,6 @@
         <Key
             android:codes="@integer/key_space"
             android:shiftLabel="@string/key_space_shift"
-            android:keyIcon="@drawable/sym_keyboard_space"
-            android:iconPreview="@drawable/sym_keyboard_feedback_space"
             android:keyWidth="51.4%p"
             android:isModifier="true" />
         <Key
