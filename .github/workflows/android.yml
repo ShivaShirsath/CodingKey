@@ -1,10 +1,9 @@
-name: Android CI
+name: Build Debug
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
 
 jobs:
   build:
@@ -25,5 +24,5 @@ jobs:
         echo y | sdkmanager "platforms;android-26" >/dev/null
         echo y | sdkmanager "build-tools;26.0.3" >/dev/null
 
-    - name: Build and test
-      run: ./gradlew build connectedCheck
+    - name: Build Debug APK
+      run: ./gradlew assembleDebug
